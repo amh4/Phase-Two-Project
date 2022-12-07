@@ -1,5 +1,5 @@
 def reading_time(sentence)
-  wps = 3.33333
+  wps = 0.3
   array = sentence.split(" ")
   seconds_to_read = array.length * wps
   return "#{seconds_to_read} seconds"
